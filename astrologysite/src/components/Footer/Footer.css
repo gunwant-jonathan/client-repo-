@@ -1,0 +1,25 @@
+.thakur{
+    height:10vh;
+    width:100%;
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 4.9vh;
+    font-weight: bolder;
+    color:brown;
+    font-size: 2.5vh;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .thakur{
+        height:60px;
+        width:100%;
+        background-color: burlywood;
+        text-align: center;
+        padding-top: 4.9vh;
+        font-weight: bold;
+        color:brown;
+        font-size: 3vh;
+        margin-top: 10px;
+    }
+}

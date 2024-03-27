@@ -1,0 +1,181 @@
+body{
+    background-color: wheat;
+}
+.main{
+    background-image: url('/images/kundali.webp');
+background-repeat: no-repeat;
+margin-top:0px;
+height: 80vh;
+width: 100%;
+background-position: center;
+}
+.maini{
+    display:none;
+}
+.maino{
+    height:5vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+.wr{
+    height:5vh;
+    width:100%;
+    font-size:2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    background-color:wheat;
+    padding-top: 4px;
+}
+.tana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width:100%;
+}
+.relationship{
+    background-image:url('/images/love_problems.png');
+    height: 40vh;
+    width:60%;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-position: center;
+    background-size: contain;
+}
+.relationshipo{
+    display:none;
+}
+.texto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    height:5vh;
+    width:100%;
+    font-size:2vw;
+}
+.depression{
+    background-image: url('/images/depression.jpg');
+    height:50vh;
+    width:100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top:20px;
+}
+.zexto{
+    background-color: wheat;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    height:5vh;
+    width:100%;
+    font-size:2vw;
+    margin-top:10px;
+}
+
+.jobo{
+    background-image: url('/images/job.webp');
+    height:50vh;
+    width:100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top:20px;
+}
+.job{
+    background-color: wheat;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    height:5vh;
+    width:100%;
+    font-size:2vw;
+    margin-top:10px;
+}
+.mainthing{
+    background-color: wheat;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    height:5vh;
+    width:100%;
+    font-size:2vw;
+    margin-top:10px;
+    font-weight: bolder;
+}
+.mainthingo{
+    background-color: wheat;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    height:5vh;
+    width:100%;
+    font-size:2vw;
+    margin-top:10px;
+    font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+    .main{
+        display:none;
+    }
+  .maini{
+    display: block;
+background-image: url('/images/kunda.png');
+height:400px;
+width:100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+.relationship{
+    display: none;
+}
+.relationshipo{
+    display: block;
+    margin-top: 80px;
+    background-image: url('/images/relo.png');
+    height:250px;
+width:100%;
+    background-repeat: no-repeat;
+background-position: center;
+}
+   .wr{
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-weight:450;
+   }
+   .texto{
+    margin-top: 40px;
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-weight:450;
+   }
+   .zexto{
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-weight:450;
+   }
+   .job{
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-weight:450;
+   }
+   .mainthing{
+    margin-top: 40px;
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-weight:450;
+    height: 100px;
+    width:100%;
+   }
+   .mainthingo{
+    margin-top: 40px;
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-weight:450;
+    height: 100px;
+    width:100%;
+   }
+  }

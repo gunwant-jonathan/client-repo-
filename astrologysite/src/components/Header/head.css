@@ -1,0 +1,99 @@
+.zavzav {
+    background-color: #f4c430;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    background-color: #f4c430;
+    margin-top: 5px;
+    height: 40px;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: brown;
+    justify-content: center;
+    letter-spacing: 0.07rem;
+  }
+  .navbar {
+    display: flex;
+    align-items: center; /* align items vertically */
+    justify-content: space-between; /* align items horizontally with space between them */
+    background-color: #f4c430;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    font-size: larger;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    transform: scale(1.1);
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  .nav-links {
+    display: flex; /* change display to flex */
+  }
+  
+  .nav-link {
+    /* add nav-link class for styling */
+    color: brown; /* set color */
+    margin-left: 10px; /* add some margin */
+  }
+  
+  .active {
+    /* add active class for styling */
+    color: white; /* change color */
+  }
+  
+  @media screen and (max-width: 992px) {
+    body{
+      margin: 2px;
+      padding: 0px;
+    }
+    .logo{
+        display: none;
+    }
+    .navbar ul{
+        font-size:15px;
+    }
+  /* change breakpoint to match bootstrap standard */
+  .menu-icon {
+      display: block; /* show menu icon */
+      margin-right:10px; /* add some margin */
+      font-size:25px; /* increase icon size */
+      cursor:pointer; /* change cursor style */
+  }
+  
+  .nav-links {
+      display:none; /* hide nav links by default */
+  }
+  
+  .nav-links.open {
+      display:flex; /* show nav links when open */
+      flex-direction:column; /* set direction of items to vertical */
+      position:absolute; /* set position to absolute */
+      top:50px; /* set top offset */
+      right:0; /* set right offset */
+      width:200px; /* set width */
+      background-color:#f4c430; /* set background color */
+  }
+  
+  .nav-links a {
+      padding:10px; /* add some padding */
+      text-align:right; /* align text to right */
+  }
+  }
